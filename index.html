@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#11110f" />
+    <meta
+      name="description"
+      content="Daybreak Coffee is your neighborhood stop for carefully made coffee, warm pastries, and a slower start."
+    />
+    <title>Daybreak Coffee — Good mornings start here</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Daybreak Coffee home">
+        <span class="wordmark-mark" aria-hidden="true">d</span>
+        <span class="wordmark-type">DAYBREAK <small>COFFEE</small></span>
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Open navigation menu"
+      >
+        <span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#our-story">Our story</a>
+        <a href="#menu">The menu</a>
+        <a href="#visit">Find us</a>
+        <a class="nav-cta" href="#visit">Come on in <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-image" aria-hidden="true"></div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow"><span></span> A neighborhood kind of coffee</p>
+          <h1 id="hero-title">Good mornings<br />start <em>here.</em></h1>
+          <p class="hero-copy">
+            A little pause in the middle of the city. Come for the coffee, stay for the feeling.
+          </p>
+          <a class="button button-gold" href="#our-story">
+            Get to know us <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+        <div class="hero-note" aria-hidden="true">
+          <span>Freshly poured</span>
+          <span class="hero-note-line"></span>
+          <span>Since 2016</span>
+        </div>
+        <a class="scroll-cue" href="#our-story" aria-label="Scroll to our story">
+          <span>SCROLL A LITTLE</span><span class="scroll-cue-arrow" aria-hidden="true">↓</span>
+        </a>
+      </section>
+
+      <div class="ticker" aria-label="Good coffee, good company, every day">
+        <div class="ticker-track" aria-hidden="true">
+          <span>GOOD COFFEE</span><i>✳</i><span>GOOD COMPANY</span><i>✳</i>
+          <span>TAKE YOUR TIME</span><i>✳</i><span>GOOD COFFEE</span><i>✳</i>
+          <span>GOOD COMPANY</span><i>✳</i><span>TAKE YOUR TIME</span><i>✳</i>
+        </div>
+      </div>
+
+      <section class="story section-pad" id="our-story" aria-labelledby="story-title">
+        <div class="story-top" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> A familiar face, a fresh cup</p>
+          <p class="story-aside">Your corner of the city<br />can feel like your own.</p>
+        </div>
+        <div class="story-grid">
+          <div class="story-photo-wrap" data-reveal>
+            <img
+              class="story-photo"
+              src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85"
+              alt="Sunlight falling across a welcoming neighborhood café"
+              loading="lazy"
+            />
+            <span class="photo-stamp">MADE WITH<br />A LITTLE MORE CARE</span>
+          </div>
+          <div class="story-copy" data-reveal>
+            <p class="section-kicker">More than your morning coffee</p>
+            <h2 id="story-title">The best part<br />of your <em>routine.</em></h2>
+            <p>
+              We believe a great café is built one small thing at a time: beans roasted with care,
+              a pastry still warm from the oven, and a hello that remembers your name.
+            </p>
+            <p>
+              So we made a place for all of it. Drop by on your way to somewhere, or stay awhile.
+              There’s always room at the counter.
+            </p>
+            <a class="text-link" href="#visit">A little more about us <span aria-hidden="true">↗</span></a>
+            <div class="signature" aria-hidden="true">See you soon<span>— the Daybreak crew</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-section section-pad" id="menu" aria-labelledby="menu-title">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="eyebrow"><span class="eyebrow-dot"></span> Made for the everyday</p>
+            <h2 id="menu-title">A few of our<br /><em>favorite things.</em></h2>
+          </div>
+          <p class="section-heading-note">
+            Thoughtful ingredients, familiar favorites, and something new to try each season.
+          </p>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card menu-card-large" data-reveal>
+            <div class="menu-image">
+              <img
+                src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=1200&q=85"
+                alt="A freshly made iced coffee"
+                loading="lazy"
+              />
+              <span class="menu-number">01</span>
+            </div>
+            <div class="menu-card-caption">
+              <div><h3>The daily pour</h3><p>Espresso, drip & all the good stuff</p></div>
+              <span aria-hidden="true">↗</span>
+            </div>
+          </article>
+          <article class="menu-card" data-reveal>
+            <div class="menu-image">
+              <img
+                src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=85"
+                alt="Flaky pastries ready for the morning"
+                loading="lazy"
+              />
+              <span class="menu-number">02</span>
+            </div>
+            <div class="menu-card-caption">
+              <div><h3>Something sweet</h3><p>Small batch, baked every morning</p></div>
+              <span aria-hidden="true">↗</span>
+            </div>
+          </article>
+          <article class="menu-card" data-reveal>
+            <div class="menu-image">
+              <img
+                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85"
+                alt="Coffee being prepared by hand"
+                loading="lazy"
+              />
+              <span class="menu-number">03</span>
+            </div>
+            <div class="menu-card-caption">
+              <div><h3>A slower sip</h3><p>Seasonal beans, brewed to linger</p></div>
+              <span aria-hidden="true">↗</span>
+            </div>
+          </article>
+        </div>
+        <p class="menu-footnote" data-reveal>Our menu changes with the seasons. There’s always a new favorite around the corner.</p>
+      </section>
+
+      <section class="visit-section section-pad" id="visit" aria-labelledby="visit-title">
+        <div class="visit-heading" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Your seat is waiting</p>
+          <h2 id="visit-title">Meet you<br />around the <em>corner.</em></h2>
+          <p>One good cup can turn a day around. Find your nearest little pause.</p>
+        </div>
+        <div class="location-list">
+          <article class="location-card" data-reveal>
+            <span class="location-index">01</span>
+            <div class="location-details">
+              <h3>Market Street</h3>
+              <p>18 Market Street · Downtown</p>
+            </div>
+            <p class="location-hours">EVERY DAY <span>7AM — 6PM</span></p>
+            <a href="https://maps.google.com/?q=18+Market+Street" target="_blank" rel="noreferrer" aria-label="Get directions to Market Street">↗</a>
+          </article>
+          <article class="location-card" data-reveal>
+            <span class="location-index">02</span>
+            <div class="location-details">
+              <h3>The Exchange</h3>
+              <p>204 Grand Avenue · Arts District</p>
+            </div>
+            <p class="location-hours">MON — SAT <span>7AM — 5PM</span></p>
+            <a href="https://maps.google.com/?q=204+Grand+Avenue" target="_blank" rel="noreferrer" aria-label="Get directions to The Exchange">↗</a>
+          </article>
+          <article class="location-card" data-reveal>
+            <span class="location-index">03</span>
+            <div class="location-details">
+              <h3>Juniper & 8th</h3>
+              <p>76 Juniper Street · West End</p>
+            </div>
+            <p class="location-hours">EVERY DAY <span>8AM — 4PM</span></p>
+            <a href="https://maps.google.com/?q=76+Juniper+Street" target="_blank" rel="noreferrer" aria-label="Get directions to Juniper and 8th">↗</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="closing-note" aria-label="A note from Daybreak">
+        <div class="closing-image" aria-hidden="true"></div>
+        <div class="closing-overlay" aria-hidden="true"></div>
+        <div class="closing-content" data-reveal>
+          <p class="eyebrow">Take the long way</p>
+          <p class="closing-quote">“A good day<br />starts with <em>good people.</em>”</p>
+          <a class="button button-outline" href="#visit">Find your Daybreak <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top">
+        <a class="wordmark footer-wordmark" href="#top" aria-label="Daybreak Coffee home">
+          <span class="wordmark-mark" aria-hidden="true">d</span>
+          <span class="wordmark-type">DAYBREAK <small>COFFEE</small></span>
+        </a>
+        <p>Good coffee.<br /><em>Better together.</em></p>
+        <a class="back-to-top" href="#top">Back to the top <span aria-hidden="true">↑</span></a>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Daybreak Coffee Co.</span>
+        <span>Made for slow mornings & good company.</span>
+        <a href="mailto:hello@daybreak.example">Say hello ↗</a>
+      </div>
+    </footer>
+  </body>
+</html>
